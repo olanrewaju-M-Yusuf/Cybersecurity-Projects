@@ -1,0 +1,98 @@
+# ISO-IEC-27001-2022-GRC-Implementation-Project
+
+## Project Title
+**Implementing ISO/IEC 27001:2022 ISMS for a Healthcare Technology Firm**
+
+---
+
+## 1. Background & Problem Statement
+A mid-size healthcare technology provider managing electronic patient records sought ISO/IEC 27001 certification to win contracts with major hospital networks and improve its risk posture. The organization lacked a formal Information Security Management System (ISMS), had minimal documentation, and no centralized risk management practice. The GRC Analyst was tasked with designing and implementing the ISMS from scratch, aligning with ISO/IEC 27001:2022 standards within 9 months.
+
+---
+
+## 2. Objective
+- Establish and document a formal ISMS
+- Define roles, policies, and operational controls based on ISO 27001 Annex A
+- Conduct risk assessments and build a risk treatment plan
+- Train staff and establish internal audit function
+- Achieve ISO/IEC 27001:2022 certification readiness
+
+---
+
+## 3. Stakeholders and Responsibilities
+| Stakeholder              | Responsibility                                                                     |
+|--------------------------|-----------------------------------------------------------------------------------|
+| CISO                     | Executive sponsor, ensures alignment with business and regulatory requirements     |
+| Compliance Officer       | Legal and regulatory mapping, control validation, policy review                    |
+| Engineering & IT Heads   | Implement technical controls (e.g., logging, access control, patching)             |
+| HR Department            | Owns onboarding, offboarding, and awareness training workflows                     |
+| Internal Audit Team      | Conducts ISMS internal audits, manages corrective actions                          |
+
+---
+
+## 4. Frameworks Used
+- **ISO/IEC 27001:2022**: Global standard for establishing and managing an ISMS [(ISO, 2022)](https://www.iso.org/standard/82875.html)
+- **NIST SP 800-30**: Risk assessment methodology used for threat modeling and asset classification [(NIST, 2012)](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf)
+- **COBIT 2019**: Governance and process management practices for information security [(ISACA, 2019)](https://www.isaca.org/resources/cobit)
+
+---
+
+## 5. Project Implementation Steps
+
+### Step 1: Scoping and ISMS Planning
+Defined ISMS scope (apps, infrastructure, geographies). Created a Statement of Applicability (SoA) listing included/excluded controls from ISO 27001 Annex A. Selected key security objectives aligned with patient data confidentiality, availability, and integrity.
+
+### Step 2: Risk Assessment
+Using NIST 800-30 methodology, assets were inventoried, threats modeled, and risk calculated. A treatment plan was built using risk matrix scores, prioritizing controls like access restrictions and secure backup configurations.
+
+### Step 3: Policy & Procedure Development
+Developed baseline ISMS policies (Information Security Policy, Asset Management, Access Control, Cryptographic Controls). Stored in a centralized Confluence repository, reviewed bi-monthly.
+
+### Step 4: Control Implementation
+Implemented technical measures such as endpoint encryption, firewall rules, and centralized log management via Wazuh. Operational controls like supplier assessment and backup validation were conducted monthly.
+
+### Step 5: Internal Audit and Management Review
+Ran internal ISMS audits using ISO 27001 audit checklist. Nonconformities were logged and tracked in Jira. A management review session with the CISO and department heads approved readiness for certification.
+
+---
+
+## 6. Key Takeaways
+- Defined scope and asset inventory is foundational for ISMS maturity
+- Internal audits must be continual and feedback-oriented
+- Awareness training across departments builds cultural resilience
+- Documenting SoA with rationale streamlines certification audits
+- Mapping risks to actionable control plans strengthens accountability
+- Change management is vital for enforcing newly implemented controls
+
+---
+
+## 7. Outcomes
+- Established full ISMS covering 80+ controls from ISO Annex A
+- Passed Stage 1 and Stage 2 ISO/IEC 27001 audits successfully
+- Reduced risk exposure score by 45% post-control implementation
+- Improved policy compliance audit scores from 62% → 94%
+- Implemented continuous control testing via internal dashboard
+
+---
+
+## 8. Tools & Platforms Used
+| Category               | Tool / Platform            | Purpose                                          |
+|------------------------|-----------------------------|--------------------------------------------------|
+| GRC Documentation      | Confluence                  | Policy & procedure repository                    |
+| Risk Assessment        | Excel, Risk Register Tool   | Asset/threat mapping and risk treatment plan     |
+| SIEM & Monitoring      | Wazuh                       | Centralized log collection and rule-based alerting|
+| Issue Tracking         | Jira                        | Control issues, audit findings, risk mitigation   |
+| Training Delivery      | TalentLMS                   | Security awareness training & progress tracking   |
+| Reporting              | Power BI                    | Control maturity dashboards, audit KPIs          |
+| Internal Audit         | ISO 27001 Checklist         | Internal audit validation of control effectiveness|
+
+---
+
+## 9. References (APA 7th Edition)
+- International Organization for Standardization. (2022). *ISO/IEC 27001:2022*. https://www.iso.org/standard/82875.html
+- National Institute of Standards and Technology. (2012). *Guide for Conducting Risk Assessments (SP 800-30 Rev. 1)*. https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf
+- ISACA. (2019). *COBIT 2019 Framework: Governance and Management Objectives*. https://www.isaca.org/
+
+---
+
+> Prepared by: **Rewaju** – GRC Analyst | Cybersecurity Researcher
