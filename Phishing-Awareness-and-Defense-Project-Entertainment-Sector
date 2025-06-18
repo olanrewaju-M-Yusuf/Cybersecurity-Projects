@@ -1,0 +1,96 @@
+# Phishing-Awareness-and-Defense-Project-Entertainment-Sector
+
+## Project Title
+**Building a Company-Wide Phishing Awareness and Response Program for a Global Entertainment Brand**
+
+---
+
+## 1. Background & Problem Statement
+A global entertainment company with a high-profile digital presence and celebrity engagement suffered a series of credential-harvesting phishing attacks targeting staff, marketing teams, and contractors. These attacks jeopardized production assets, unreleased content, and personal data of talent. The CISO directed the GRC Analyst to lead a phishing defense project focused on awareness, simulation, response, and measurable resilience improvements across all departments.
+
+---
+
+## 2. Objective
+- Develop and implement a phishing awareness and response program
+- Conduct phishing simulation campaigns across departments
+- Establish policies, response workflows, and playbooks
+- Measure user susceptibility and improve email reporting culture
+- Align with NIST, SANS, and industry best practices
+
+---
+
+## 3. Stakeholders and Responsibilities
+| Stakeholder              | Responsibility                                                              |
+|--------------------------|-----------------------------------------------------------------------------|
+| CISO                     | Approves scope, risk thresholds, and champions culture change                |
+| GRC Analyst              | Leads project design, simulation strategy, and metrics reporting              |
+| Security Operations (SOC)| Investigates reported phishing and triggers response workflow                |
+| HR & Communications      | Coordinates awareness materials, internal communications, training delivery   |
+| Legal & Compliance       | Ensures response aligns with data privacy, contracts, and intellectual property rights |
+
+---
+
+## 4. Frameworks Used
+- **NIST SP 800-61 Rev. 2**: Computer Security Incident Handling Guide [(NIST, 2012)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)
+- **SANS Security Awareness Maturity Model**: Staged approach to awareness program development [(SANS, 2022)](https://www.sans.org/security-awareness-training/)
+- **CIS Controls v8 – Control 14**: Email and Web Browser Protections [(CIS, 2021)](https://www.cisecurity.org/controls/v8)
+
+---
+
+## 5. Project Implementation Steps
+
+### Step 1: Baseline Assessment
+Conducted a baseline phishing simulation across 400+ users in marketing, production, HR, and IT. Results showed a 34% click rate and 8% credential submission rate. High-risk users were identified for targeted training.
+
+### Step 2: Awareness Program Rollout
+Launched mandatory phishing training using interactive e-learning modules. Branded internal campaigns (“Think Before You Click”) were distributed via Slack and digital signage across studios. Monthly security tips and real-world breach stories were shared.
+
+### Step 3: Simulation Campaigns
+Deployed quarterly phishing simulations using Cofense PhishMe with randomized lures (e.g., talent contracts, Netflix clone links, Spotify password reset). Results were mapped to departments and business units.
+
+### Step 4: Incident Response Integration
+Standardized phishing reporting via “Report Phish” button in Outlook. SOC playbooks were updated to triage emails, quarantine malicious content, and initiate forensics. Awareness was embedded into onboarding.
+
+### Step 5: Metrics, Dashboards & Feedback Loops
+Created dashboards in Power BI tracking: click rates, reporting rates, time-to-report, and campaign performance. Insights were shared with department heads and used to drive incentives and recognition.
+
+---
+
+## 6. Key Takeaways
+- Awareness programs need creative, culturally relevant content to be effective
+- Phishing simulations uncover user behavior insights beyond training metrics
+- Incident response integration boosts reporting culture and reduces dwell time
+- Leadership support drives company-wide buy-in and accountability
+- Metrics and gamification sustain long-term engagement
+
+---
+
+## 7. Outcomes
+- Phishing click rate dropped from 34% to 7% in 6 months
+- Reporting rate increased from 12% to 69%
+- 100% adoption of Outlook Phish Reporter plugin
+- Simulated breach detection time reduced by 78%
+- Internal audit approved awareness controls for ISO/IEC 27001 Annex A.7 alignment
+
+---
+
+## 8. Tools & Platforms Used
+| Category               | Tool / Platform          | Purpose                                               |
+|------------------------|---------------------------|-------------------------------------------------------|
+| Simulation Platform    | Cofense PhishMe           | Simulated attacks and behavioral tracking             |
+| Awareness Delivery     | KnowBe4 / TalentLMS       | Phishing training modules and tracking                 |
+| Reporting Integration  | Outlook Phish Reporter    | One-click phishing reporting for all employees        |
+| SIEM & SOC Playbooks   | Splunk + ServiceNow       | Alert correlation, automated triage, escalation        |
+| Visualization          | Power BI                  | Click/report rates, business unit performance         |
+| Documentation          | Confluence                | Playbooks, training logs, and executive briefings     |
+
+---
+
+## 9. References (APA 7th Edition)
+- National Institute of Standards and Technology. (2012). *Computer Security Incident Handling Guide (SP 800-61 Rev. 2)*. https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
+- Center for Internet Security. (2021). *CIS Controls v8*. https://www.cisecurity.org/controls/v8
+- SANS Institute. (2022). *Security Awareness Maturity Model*. https://www.sans.org/security-awareness-training/
+
+---
+
+> Prepared by: **Rewaju** – GRC Analyst | Cybersecurity Researcher
