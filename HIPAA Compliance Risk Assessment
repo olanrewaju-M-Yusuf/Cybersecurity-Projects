@@ -1,0 +1,96 @@
+# HIPAA Compliance Risk Assessment Project – Healthcare SaaS
+
+## Project Title
+**Conducting a HIPAA Compliance Risk Assessment for a Cloud-Based Healthcare SaaS Provider**
+
+---
+
+## 1. Background & Problem Statement
+A cloud-based healthcare SaaS company handling electronic Protected Health Information (ePHI) for U.S. clinics and insurance partners faced increasing customer audits and regulatory expectations. While the organization had basic technical safeguards in place, it lacked a formal HIPAA risk assessment, which posed a business continuity risk and a violation of the HIPAA Security Rule. The GRC Analyst was assigned to lead a comprehensive HIPAA risk assessment aligned with HHS and NIST guidance.
+
+---
+
+## 2. Objective
+- Conduct an enterprise-wide HIPAA Security Rule risk assessment
+- Identify vulnerabilities affecting the confidentiality, integrity, and availability of ePHI
+- Map findings to administrative, technical, and physical safeguards
+- Recommend mitigation strategies and document corrective actions
+- Prepare for OCR audits and HIPAA Business Associate Agreement (BAA) compliance
+
+---
+
+## 3. Stakeholders and Responsibilities
+| Stakeholder              | Responsibility                                                                          |
+|--------------------------|-----------------------------------------------------------------------------------------|
+| Chief Compliance Officer | Oversees HIPAA strategy and engagement with legal and external regulators              |
+| GRC Analyst              | Leads assessment execution, documentation, and risk register updates                   |
+| Security Engineering     | Provides evidence of technical safeguards and control implementation                   |
+| Legal Counsel            | Ensures contractual and legal compliance (BAAs, subcontractor clauses)                |
+| Product & DevOps Teams   | Provides system diagrams, asset inventories, and access control documentation          |
+
+---
+
+## 4. Frameworks Used
+- **HIPAA Security Rule (45 CFR §164.308–316)**: Federal regulation governing ePHI protection [(HHS, 2023)](https://www.hhs.gov/hipaa/for-professionals/security/index.html)
+- **NIST SP 800-66 Rev. 1**: Guidance on HIPAA Security Rule implementation [(NIST, 2008)](https://csrc.nist.gov/publications/detail/sp/800-66/rev-1/final)
+- **OCR Audit Protocol**: Office for Civil Rights audit criteria [(OCR, 2023)](https://www.hhs.gov/hipaa/for-professionals/compliance-enforcement/audit/index.html)
+
+---
+
+## 5. Project Implementation Steps
+
+### Step 1: Scoping and Asset Inventory
+Defined the scope of assessment: cloud-based patient portals, APIs, EHR integration pipelines, and data storage. Created a HIPAA-specific asset inventory covering databases, admin interfaces, mobile access points, and vendor access.
+
+### Step 2: Threat Identification and Risk Rating
+Used NIST 800-66 to identify threats such as unauthorized access, improper data disposal, and misconfigured access control. Risk matrix scored each based on likelihood and potential impact to ePHI confidentiality, integrity, and availability.
+
+### Step 3: Control Assessment and Gap Analysis
+Mapped existing controls to HIPAA’s Administrative, Physical, and Technical safeguard categories. Identified gaps in user access review frequency, data backup testing, and employee security training. Aligned findings to OCR Audit Protocol.
+
+### Step 4: Remediation Planning and Risk Register
+Created a corrective action plan for each gap, assigned owners, and timelines. Added all risks to a centralized HIPAA risk register maintained in ServiceNow GRC. Implemented weekly review meetings with stakeholders.
+
+### Step 5: Reporting and Compliance Readiness
+Generated a HIPAA risk assessment report with executive summary, risk ratings, and mitigation roadmap. Submitted final results to the compliance team and prepared documentation required for BAA partner attestations.
+
+---
+
+## 6. Key Takeaways
+- HIPAA compliance is a shared responsibility between business, technical, and legal teams
+- Risk-based prioritization of ePHI threats ensures resource alignment
+- OCR audit readiness requires traceable evidence and documented processes
+- Centralizing risk management accelerates vendor and partner onboarding
+- NIST 800-66 serves as a practical roadmap for meeting HIPAA Security Rule requirements
+
+---
+
+## 7. Outcomes
+- Completed formal HIPAA risk assessment for 6 production systems and 2 vendor platforms
+- Identified and remediated 15 high-risk gaps, including unlogged admin access and untested backups
+- Developed and published a HIPAA-compliant Security Awareness Training program
+- Improved audit readiness score by 40% based on internal compliance rubric
+- Achieved BAA approval from two major U.S. healthcare providers
+
+---
+
+## 8. Tools & Platforms Used
+| Category               | Tool / Platform            | Purpose                                                |
+|------------------------|-----------------------------|--------------------------------------------------------|
+| Risk Management        | ServiceNow GRC              | Risk register, remediation tracking                    |
+| Documentation          | Confluence                  | Assessment reports, SOPs, training logs                |
+| Scanning & Audit       | Nessus, AWS Inspector       | System vulnerability evidence                          |
+| Training Delivery      | KnowBe4 / LMS               | HIPAA training modules for staff                       |
+| Reporting              | Power BI                    | Risk dashboards, gap closure KPIs                      |
+| Legal Review           | DocuSign + BAA Tracker      | Agreement lifecycle and evidence archive               |
+
+---
+
+## 9. References (APA 7th Edition)
+- U.S. Department of Health and Human Services. (2023). *HIPAA Security Rule*. https://www.hhs.gov/hipaa/for-professionals/security/index.html
+- National Institute of Standards and Technology. (2008). *An Introductory Resource Guide for Implementing the HIPAA Security Rule (SP 800-66 Rev. 1)*. https://csrc.nist.gov/publications/detail/sp/800-66/rev-1/final
+- Office for Civil Rights. (2023). *HIPAA Audit Protocol*. https://www.hhs.gov/hipaa/for-professionals/compliance-enforcement/audit/index.html
+
+---
+
+> Prepared by: **Rewaju** – GRC Analyst | Cybersecurity Researcher
