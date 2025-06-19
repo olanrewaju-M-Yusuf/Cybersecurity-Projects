@@ -1,0 +1,117 @@
+# PCI DSS Compliance Implementation for an Online Retailer
+
+## Project Title
+**Achieving and Sustaining PCI DSS Compliance for Cardholder Data Protection in a Cloud-Based Retail Environment**
+
+---
+
+## 1. Introduction
+
+With the rise in digital transactions, online retailers are prime targets for credit card theft and cyber fraud. The Payment Card Industry Data Security Standard (PCI DSS) mandates strict technical and administrative controls to protect cardholder data. This project aims to implement PCI DSS compliance at a mid-sized online retailer, ensuring end-to-end protection for customer transactions while improving audit readiness.
+
+---
+
+## 2. Objectives and Scope
+
+**Objectives:**
+- Achieve and sustain PCI DSS v4.0 compliance across payment environments
+- Scope, assess, and document all cardholder data environments (CDE)
+- Remediate control gaps using a risk-based prioritization model
+- Establish quarterly validation and continuous compliance monitoring
+
+**Scope:**
+- All systems storing, processing, or transmitting cardholder data
+- Third-party payment service providers (PSPs)
+- Cloud platforms hosting eCommerce infrastructure (AWS, Shopify Plus)
+- DevOps CI/CD environments tied to checkout/payment services
+
+---
+
+## 3. Assurance Opinion
+
+**Rating: Substantial**
+
+The control systems deployed demonstrated strong alignment with PCI DSS requirements. However, third-party integrations and legacy plugins introduced periodic vulnerabilities that required continuous monitoring. The organization has taken proactive steps to establish quarterly scans and risk registers for dynamic compliance tracking.
+
+---
+
+## 4. Findings
+
+| Domain                        | Observation |
+|------------------------------|-------------|
+| Network Segmentation         | Cardholder data was accessible from flat internal networks |
+| Access Control               | Admin accounts lacked MFA enforcement |
+| Logging & Monitoring         | No centralized logging for payment API traffic |
+| Secure Development Practices | Static code scans not enforced before release |
+| Vendor Risk Management       | No documented PCI attestations from third-party PSPs |
+
+---
+
+## 5. Areas for Development
+
+| Priority | Area |
+|---------|------|
+| High    | Enforce MFA for all privileged access to payment systems |
+| High    | Implement AWS WAF and VPC segmentation for PCI scope isolation |
+| Medium  | Centralize logging using AWS CloudTrail + ELK stack |
+| Medium  | Request and review AOC (Attestation of Compliance) from all PSPs |
+| Low     | Automate code scanning (e.g., SonarQube) before deployment to production |
+
+---
+
+## 6. Action Plan
+
+**Phase 1 – Scoping & Asset Discovery**
+- Define Cardholder Data Environment (CDE) boundaries
+- Map all storage, processing, and transmission points
+- Inventory payment APIs, databases, and third-party integrations
+
+**Phase 2 – Gap Analysis**
+- Conduct internal PCI DSS readiness assessment
+- Identify non-compliant controls by referencing PCI DSS v4.0 SAQ D
+- Use CVSS for vulnerabilities and business impact to prioritize remediation
+
+**Phase 3 – Remediation & Implementation**
+- Enforce network segmentation and firewall ACLs
+- Apply code and config scanning in CI/CD pipelines
+- Deploy centralized logging (ELK) and configure 90-day log retention
+
+**Phase 4 – Validation & Monitoring**
+- Conduct quarterly ASV scans and internal penetration testing
+- Develop PCI audit checklists and internal self-attestation templates
+- Maintain compliance dashboard for management reporting
+
+---
+
+## 7. Tools & Platforms Used
+
+| Tool | Purpose |
+|------|---------|
+| AWS GuardDuty, VPC, WAF  | Cloud perimeter protection and segmentation |
+| Nessus, Qualys            | Internal vulnerability and PCI scan tool |
+| Jira, Confluence          | Track remediation tasks and compliance documentation |
+| Splunk, ELK               | Centralized logging and monitoring |
+| Fortinet NGFW             | PCI-scoped firewall and ACL management |
+| Snyk, SonarQube           | Static code analysis in payment app pipelines |
+
+---
+
+## 8. Key Takeaways
+
+- PCI DSS v4.0 demands continuous validation, not just annual attestation
+- Scoping and accurate CDE boundaries are critical to compliance and cost-efficiency
+- Quarterly scans, logging, and vendor attestation must be operationalized
+- Compliance must be embedded into DevSecOps and vendor onboarding workflows
+- Cardholder trust is a direct function of secure payment design and visibility
+
+---
+
+## 9. References (APA 7th Edition)
+
+- PCI Security Standards Council. (2022). *Payment Card Industry Data Security Standard v4.0*. https://www.pcisecuritystandards.org/document_library?category=pcidss&document=pci_dss
+- National Institute of Standards and Technology. (2020). *Security and Privacy Controls for Information Systems and Organizations (SP 800-53 Rev. 5)*. https://doi.org/10.6028/NIST.SP.800-53r5
+- AWS. (2023). *Architecting for PCI DSS Compliance in the AWS Cloud*. https://aws.amazon.com/compliance/pci-dss/
+
+---
+
+> Prepared by: **Rewaju** – GRC Analyst | Cybersecurity Researcher
