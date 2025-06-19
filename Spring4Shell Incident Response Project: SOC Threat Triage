@@ -6,7 +6,7 @@
 ---
 
 ## 1. Background & Problem Statement  
-In April 2022, a critical remote code execution (RCE) vulnerability (CVE-2022-22965) affecting the Spring Framework—known as Spring4Shell—was disclosed. This vulnerability allowed unauthenticated attackers to gain control of servers running Spring Core under specific Java versions and conditions. At the Telstra Security Operations Centre (SOC), a key production system utilizing Spring Core experienced a service outage. Investigation confirmed signs of compromise matching Spring4Shell IOCs. As the information security analyst, you are responsible for triaging the incident, assessing the infrastructure impact, and notifying the appropriate internal team.
+In April 2022, a critical remote code execution (RCE) vulnerability (CVE-2022-22965) affecting the Spring Framework—known as Spring4Shell was disclosed. This vulnerability allowed unauthenticated attackers to gain control of servers running Spring Core under specific Java versions and conditions. At the Telstra Security Operations Centre (SOC), a key production system utilizing Spring Core experienced a service outage. Investigation confirmed signs of compromise matching Spring4Shell IOCs. As a member of the information security analyst team, we were responsible for triaging the incident, assessing the infrastructure impact, and notifying the appropriate internal team.
 
 ---
 
