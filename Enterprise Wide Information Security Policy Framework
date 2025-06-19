@@ -1,0 +1,126 @@
+# Enterprise-Wide Information Security Policy Framework
+
+## Project Title
+**Developing an Enterprise-Wide Information Security Policy Framework Aligned with ISO/IEC 27001:2022 and Mapped to NIST SP 800-53 Controls**
+
+---
+
+## 1. Introduction
+
+Modern enterprises require a cohesive information security policy (ISP) framework that not only defines organizational intent but also aligns with international standards. This project introduces an enterprise-wide ISP framework integrating:
+- **ISO/IEC 27001:2022** for policy development and ISMS implementation
+- **NIST SP 800-53 Rev. 5** as a control cross-reference
+
+The policy addresses governance, risk management, access control, business continuity, and privacy, forming a comprehensive approach to managing information risk.
+
+---
+
+## 2. Objectives and Scope
+
+**Objectives:**
+- Establish a standardized and auditable information security policy framework
+- Ensure alignment with ISO/IEC 27001:2022 clauses and Annex A
+- Map each policy domain to corresponding NIST 800-53 controls
+- Enhance enterprise-wide compliance, accountability, and transparency
+
+**Scope:**
+- Entire organizational units (IT, HR, Legal, DevOps, Cloud Security)
+- Applies to both on-premises and cloud environments
+- Covers all information assets, user groups, and third-party engagements
+
+---
+
+## 3. Assurance Opinion
+
+**Rating: Substantial**
+
+The proposed framework demonstrates:
+- Strong adherence to ISO control structures
+- Maturity in governance and policy lifecycle management
+- Intentional mapping between business operations and security domains
+
+However, continuous improvement and integration of business unit feedback is essential for sustainable success.
+
+---
+
+## 4. Findings
+
+| Policy Domain | Observation |
+|---------------|-------------|
+| Governance & ISMS | No formal mapping of ISO policies to NIST controls currently exists |
+| Risk Management | Inconsistent documentation of risk assessments |
+| Access Control | Lack of least privilege enforcement in some SaaS tools |
+| Supplier Relationships | Third-party data handling policies missing for SaaS vendors |
+| Business Continuity | Recovery Time Objectives (RTOs) undefined for cloud-hosted apps |
+
+---
+
+## 5. Areas for Development
+
+| Priority | Area |
+|---------|------|
+| High | Define RACI matrix for policy ownership and review cadence |
+| High | Integrate policy exception management and logging |
+| Medium | Automate version control using GitHub or SharePoint DLP workflows |
+| Medium | Train business unit managers on ISO/NIST mappings |
+| Low | Formalize internal branding and metadata tagging for each policy document |
+
+---
+
+## 6. Action Plan
+
+**Step 1: Define Policy Architecture**  
+Structure all policies under a 5-layer taxonomy:
+1. Governance (e.g., ISMS, data classification)
+2. Risk Management
+3. Control Domains (access, asset, crypto)
+4. Operational Requirements (BC/DR, remote work, mobile)
+5. Legal & Regulatory (HIPAA, GDPR, PCI DSS)
+
+**Step 2: Alignment Table**  
+Map each ISO clause and Annex A control to NIST 800-53 controls. For example:
+- ISO A.9 (Access Control) ↔ NIST AC family (e.g., AC-2, AC-3, AC-6)
+- ISO A.17 (Business Continuity) ↔ NIST CP family (e.g., CP-2, CP-4, CP-9)
+
+**Step 3: Implementation Workflow**  
+- Centralize policies in version-controlled repo
+- Use DLP alerts for unauthorized edits
+- Assign quarterly review cycles per policy owner
+
+**Step 4: Training & Awareness**  
+- Develop onboarding materials for new joiners
+- Conduct semiannual tabletop policy validation drills
+
+---
+
+## 7. Tools & Platforms Used
+
+| Tool | Purpose |
+|------|---------|
+| Microsoft Purview | Policy lifecycle & compliance tracking |
+| GitHub Enterprise | Policy versioning and change control |
+| Power BI | Risk and policy compliance dashboards |
+| NIST OSCAL/JSON | Policy-control mapping formats |
+| ISO27001 Toolkit | Clause-based policy templates |
+
+---
+
+## 8. Key Takeaways
+
+- ISO 27001:2022 provides structure, while NIST 800-53 provides control depth
+- Mapping enhances audit-readiness and operational alignment
+- Policy governance requires lifecycle tracking, training, and ownership models
+- Centralized repositories and metadata tagging ensure traceability
+- Semiannual reviews maintain ongoing compliance with evolving threats
+
+---
+
+## 9. References (APA 7th Edition)
+
+- International Organization for Standardization. (2022). *ISO/IEC 27001:2022 Information Security Management Systems*. https://www.iso.org/standard/27001
+- National Institute of Standards and Technology. (2020). *Security and Privacy Controls for Information Systems (NIST SP 800-53 Rev. 5)*. https://doi.org/10.6028/NIST.SP.800-53r5
+- ISACA. (2021). *Implementing an Effective Information Security Policy Framework*. https://www.isaca.org/resources/news-and-trends/newsletters/atisaca/2021/volume-3/implementing-an-effective-information-security-policy-framework
+
+---
+
+> Prepared by: **Rewaju** – GRC Analyst | Cybersecurity Researcher
